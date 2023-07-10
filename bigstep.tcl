@@ -302,6 +302,7 @@ proc chooseFontSize {} {
 
 bind all <Control-KeyPress-n> resetCanvas
 bind all <Control-KeyPress-q> exit
+bind all <KeyPress-Escape> "focus ."
 
 frame .c.0
 pack .c.0 -expand 1
