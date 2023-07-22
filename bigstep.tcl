@@ -1,4 +1,4 @@
-#!/usr/bin/wish
+#!/usr/bin/env wish
 # Author: Alisa Parashchenko, 2023
 . configure -cursor left_ptr
 set bgcol [. cget -background]
